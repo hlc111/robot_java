@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eservice.api.dao.RbClassRecordMapper">
+  <resultMap id="BaseResultMap" type="com.eservice.api.model.RbClassRecord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="class_id" jdbcType="INTEGER" property="classId" />
+    <result column="organization_id" jdbcType="INTEGER" property="organizationId" />
+    <result column="class_term" jdbcType="VARCHAR" property="classTerm" />
+    <result column="class_info" jdbcType="VARCHAR" property="classInfo" />
+    <result column="current_section" jdbcType="INTEGER" property="currentSection" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+  </resultMap>
+</mapper>
