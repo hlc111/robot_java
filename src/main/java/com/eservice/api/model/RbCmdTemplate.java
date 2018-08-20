@@ -23,11 +23,31 @@ public class RbCmdTemplate {
     @Column(name = "json_cmd")
     private String json_cmd;
 
+    public String getPython_cmd() {
+        return python_cmd;
+    }
+
+    public void setPython_cmd(String python_cmd) {
+        this.python_cmd = python_cmd;
+    }
+
     /**
      * python代码
      */
     @Column(name = "python_cmd")
-    private String pythonCmd;
+    private String python_cmd;
+
+
+    public String getXml_cmd() {
+        return xml_cmd;
+    }
+
+    public void setXml_cmd(String xml_cmd) {
+        this.xml_cmd = xml_cmd;
+    }
+
+    @Column(name = "xml_cmd")
+    private String xml_cmd;
 
     /**
      * string数组， 以逗号分割
@@ -112,23 +132,6 @@ public class RbCmdTemplate {
         this.json_cmd = jsonCmd;
     }
 
-    /**
-     * 获取python代码
-     *
-     * @return python_cmd - python代码
-     */
-    public String getPythonCmd() {
-        return pythonCmd;
-    }
-
-    /**
-     * 设置python代码
-     *
-     * @param pythonCmd python代码
-     */
-    public void setPythonCmd(String pythonCmd) {
-        this.pythonCmd = pythonCmd;
-    }
 
     /**
      * 获取string数组， 以逗号分割

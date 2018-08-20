@@ -9,8 +9,9 @@
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="category" jdbcType="VARCHAR" property="category" />
     <result column="type" jdbcType="TINYINT" property="type" />
-    <result column="json_cmd" jdbcType="LONGVARCHAR" property="jsonCmd" />
-    <result column="python_cmd" jdbcType="LONGVARCHAR" property="pythonCmd" />
+    <result column="json_cmd" jdbcType="LONGVARCHAR" property="json_cmd" />
+    <result column="python_cmd" jdbcType="LONGVARCHAR" property="python_cmd" />
+    <result column="xml_cmd" jdbcType="LONGVARCHAR" property="xml_cmd" />
     <result column="params" jdbcType="LONGVARCHAR" property="params" />
   </resultMap>
 </mapper>
